@@ -262,6 +262,18 @@ cursor:pointer;
 	margin-bottom: 0;
 }
 
+.atim>.atim-div{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 270px;
+	height: 120px;
+	background: #F5F4FA;
+   border-radius: 4px;
+	}
+
+
+
 /* секція our-team */
 
 .our-team{
@@ -271,6 +283,7 @@ cursor:pointer;
 }
 
 .tytle-mini{
+margin-top: 30px;
 margin-bottom: 10px;
 font-size: 14px;
 line-height: 1.14;
@@ -363,8 +376,49 @@ letter-spacing: 0.03em;
 		color: rgba(255, 255, 255, 1);
  
 	}
+
+	/* Постійні клієнти */
+
+	.customer-list{
+		display: flex;
+		list-style-type: none;
+	}
+	.customer-item{
+		
+					}
+	.customer-item:not(:last-child){
+		margin-right: 30px;
+	}
+
+	.container.customer-div{
+		padding-top: 94px;
+		padding-bottom: 94px;
+	}
 	
-	
+	.tytle-work.tytle-costomer{
+margin-bottom: 50px;
+	}
+
+	.customer-icon{
+		fill: currentColor;
+	}
+
+	.customer-link{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 170px;
+		height: 92px;
+		border: 1px solid #AFB1B8;
+      border-radius: 4px; 
+		color:rgba(175, 177, 184, 1);
+	}
+
+	.customer-item>.customer-link:focus,.customer-item>.customer-link:hover{
+		color: var(--button-color);
+		border-color: var(--button-color);
+	}
+
 	/* main second */
 
 	.main-secondary{
